@@ -1,0 +1,20 @@
+/* この度は、本コードを見ていただきありがとうございます。
+ゆっくりと見ていってください！ */
+
+/* 位置決め（上下左右中央揃え） */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* タスク */
+.done {
+    text-decoration: line-through;
+}
+
+/* 終了のボタン */
+.doneButton {
+    margin-left: 20px;
+}
